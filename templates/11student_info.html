@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block title %}
+Student Info
+{% endblock %}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block css %}
+
+{% endblock %}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block content%}
+<div class="container">
+    <!-- student code start -->
+    <h1>Student Info</h1>
+	<h4>Acknowledgement of Country</h4>
+	<p>Student id is :{{student_obj.uid}}</p>
+    <p>Student username is :{{student_obj.username}}</p>
+    <p>Student password is :{{student_obj.password}}</p>
+    <p>Student email is :{{student_obj.email}}</p>
+    <!-- student code end -->
+</div>
+{% endblock%}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block js %}
+
+{% endblock %}
